@@ -11,9 +11,11 @@ function App() {
         numeroTelefone +
         "?text=Claro que sim!!! Pode me buscar às 8 da noite"
 
-    window.open(linkWhatsApp, "_blank")
-    window.open('https://www.youtube.com/watch?v=-ZByWa9hH5s&list=RD-ZByWa9hH5s&index=1', '_blank');
-  };
+        window.open(linkWhatsApp, "_blank");
+        setTimeout(() => {
+          window.open('https://www.youtube.com/watch?v=-ZByWa9hH5s&list=RD-ZByWa9hH5s&index=1', '_blank');
+        }, 1000); 
+      };
 
   const handleNoMouseEnter = () => {
     setHovering(true);
