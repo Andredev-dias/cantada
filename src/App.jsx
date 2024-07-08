@@ -13,7 +13,7 @@ function App() {
 
         window.open(linkWhatsApp, "_blank");
         setTimeout(() => {
-          window.open('https://www.youtube.com/watch?v=-ZByWa9hH5s&list=RD-ZByWa9hH5s&index=1', '_blank');
+          window.open('https://www.youtube.com/watch?v=-ZByWa9hH5s&list=RD-ZByWa9hH5s&index=1');
         }, 1000); 
       };
 
