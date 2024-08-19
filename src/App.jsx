@@ -5,7 +5,7 @@ function App() {
   const [hovering, setHovering] = useState(false);
 
   const handleYesClick = () => {
-    var numeroTelefone = '5541999994084';
+    var numeroTelefone = '5541999999999';
 
     var linkWhatsApp = "https://wa.me/" +
         numeroTelefone +
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Você quer sair comigo sexta?</h1>
+      <h1>pergunta aqui</h1>
       <div className="buttons">
         <button className="yes-button" onClick={handleYesClick}>Sim</button>
         <button
